@@ -15,8 +15,8 @@ class IpToLocationTest extends \PHPUnit_Framework_TestCase
     {
         $map = Yii::createObject([
             'class' => 'chocoboxxf\Baidu\Map\Map',
-            'ak' => 'ny8z4cIbNaWMDIanPXwnfjB1QhIaSPHO',
-            'sk' => 'DGV6nXBg2hUoRpIVggXAqflLRlaHEcLx',
+            'ak' => 'AK',
+            'sk' => 'SK',
         ]);
         var_dump($map->ipToLocation('220.181.57.217'));
     }
@@ -25,8 +25,8 @@ class IpToLocationTest extends \PHPUnit_Framework_TestCase
     {
         $map = Yii::createObject([
             'class' => 'chocoboxxf\Baidu\Map\Map',
-            'ak' => 'ny8z4cIbNaWMDIanPXwnfjB1QhIaSPHO',
-            'sk' => 'DGV6nXBg2hUoRpIVggXAqflLRlaHEcLx',
+            'ak' => 'AK',
+            'sk' => 'SK',
         ]);
         echo json_encode($map->ipToLocation('220.181.57.217', 'bd09ll'));
     }
@@ -35,8 +35,8 @@ class IpToLocationTest extends \PHPUnit_Framework_TestCase
     {
         $map = Yii::createObject([
             'class' => 'chocoboxxf\Baidu\Map\Map',
-            'ak' => 'ny8z4cIbNaWMDIanPXwnfjB1QhIaSPHO',
-            'sk' => 'DGV6nXBg2hUoRpIVggXAqflLRlaHEcLx',
+            'ak' => 'AK',
+            'sk' => 'SK',
         ]);
         var_dump($map->ipToLocation('127.0.0.1', 'bd09ll'));
     }
@@ -45,8 +45,8 @@ class IpToLocationTest extends \PHPUnit_Framework_TestCase
     {
         $map = Yii::createObject([
             'class' => 'chocoboxxf\Baidu\Map\Map',
-            'ak' => 'ny8z4cIbNaWMDIanPXwnfjB1QhIaSPHO',
-            'sk' => 'DGV6nXBg2hUoRpIVggXAqflLRlaHEcLx',
+            'ak' => 'AK',
+            'sk' => 'SK',
         ]);
         var_dump($map->ipToLocation('999.999.999.999', 'bd09ll'));
     }
