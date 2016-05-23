@@ -1,0 +1,39 @@
+{
+  "name": "chocoboxxf/yii2-baidu-map-sdk",
+  "type": "yii2-extension",
+  "description": "Baidu Map API for Yii 2.0",
+  "keywords": ["yii2", "baidu", "map", "sdk"],
+  "homepage": "https://github.com/chocoboxxf/yii2-baidu-map-sdk",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/chocoboxxf/yii2-baidu-map-sdk/issues",
+    "wiki": "https://github.com/chocoboxxf/yii2-baidu-map-sdk/wiki",
+    "source": "https://github.com/chocoboxxf/yii2-baidu-map-sdk"
+  },
+  "authors": [
+    {
+      "name": "chocoboxxf",
+      "email": "neil.xuxf@gmail.com",
+      "homepage": "https://github.com/chocoboxxf",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*",
+    "guzzlehttp/guzzle": "~5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "chocoboxxf\\Baidu\\Map\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "chocoboxxf\\Baidu\\Map\\Tests\\": "tests/"
+    }
+  }
+}
